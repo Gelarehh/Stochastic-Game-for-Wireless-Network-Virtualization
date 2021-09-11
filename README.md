@@ -32,6 +32,7 @@ Each end-user is subscribed to only one service in the network. The long-term av
   <img width="150" src="https://user-images.githubusercontent.com/66460485/132947325-aace64b7-2405-4776-8e1e-84a0a12678b4.png">
 </p>
 The satisfaction function of SP<sub>i</sub> can be interpreted as the willingness-to-pay (WTP) function of that SP and is a linear function:
+<br/><br/>
 <p align="center">
   <img width="150" src="https://user-images.githubusercontent.com/66460485/132947328-33cb29a3-58c2-4cbd-8327-3456e219894c.png">
 </p>
