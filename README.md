@@ -31,17 +31,18 @@ Each end-user is subscribed to only one service in the network. The long-term av
 <p align="center">
   <img width="150" src="https://user-images.githubusercontent.com/66460485/132947325-aace64b7-2405-4776-8e1e-84a0a12678b4.png">
 </p>
-The satisfaction function of SP_i can be interpreted as the willingness-to-pay (WTP) function of that SP and is a linear function:
+The satisfaction function of SP<sub>i</sub> can be interpreted as the willingness-to-pay (WTP) function of that SP and is a linear function:
 <p align="center">
   <img width="150" src="https://user-images.githubusercontent.com/66460485/132947328-33cb29a3-58c2-4cbd-8327-3456e219894c.png">
 </p>
-where a_k is the weight of the user k.
+where a<sub>k</sub> is the weight of the user k.
 
 A simple mechanism named Vickrey–Clarke–Groves (VCG) is used for pricing. The NO performs the rate allocation within the feasible rate region as follows:
 <p align="center">
   <img width="200" src="https://user-images.githubusercontent.com/66460485/132947332-338e038d-30fe-4340-94fc-a73c957737ad.png">
 </p>
-where θi(r) is the value function of SP_i over the potential allocated rate.
+where θ<sub>i</sub>(r) is the value function of SP<sub>i</sub> over the potential allocated rate.
+
 ### Stochastic Game Formulation
 ### Playing Stochastic Game via Conjectural Price
 ### Conjectural Price Selection
