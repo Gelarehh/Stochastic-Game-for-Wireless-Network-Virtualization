@@ -68,6 +68,23 @@ The conjectural price is the belief of SP<sub>i</sub> on the per-unit cost (char
 The coupling in the payoff from the general policies played in the FutRA game prohibits the computation of the best response in the CurRA game. Conjectural prices remove this coupling. Once the conjectural prices are fixed, the curRA game is played independently of the FutRA game.
 
 ### Conjectural Price Selection
+From the perspective of the NO, the efficient resource allocation is to cooperatively maximize the sum utility of all wireless users as given by:
+<br/><br/>
+<p align="center">
+  <img width="400" src="https://user-images.githubusercontent.com/66460485/132947865-5d259442-9eaa-4f45-a820-d121992aa26e.png">
+</p>
+The best conjectural price can be selected by solving the following problem.
+<br/><br/>
+<p align="center">
+  <img width="400" src="https://user-images.githubusercontent.com/66460485/132947906-d9d1f353-fefc-437c-be84-ba81ae0773aa.png">
+</p>
+The NO would like all the SPs to adopt this efficient price profile. results in the efficient rate allocation in the CurRA game and is the Nash equilibrium of the FutRA game in the stochastic game. When the SPs are enforced to take the conjectural prices to play the FutRA game, one Nash Equilibrium is the efficient price . Furthermore, given the Nash equilibrium, the SPs play the CurRA game by truthfully revealing the value function that results in the efficient rate allocation. This truthful revelation actually leads to the dominant equilibrium in the CurRA game.
+
 ### Distributed Implementation and Online Learning
+As traffic states and the channel condition distribution are not available a priori, to find the conjectural price profile these information must be learned over time. We can define the traffic state just before the packet arrival as a post-decision traffic state.
+<br/><br/>
+<p align="center">
+  <img width="400" src="https://user-images.githubusercontent.com/66460485/132947945-9eb377cc-69b3-43bd-b415-ae06fbed4a45.png">
+</p>
 
 ## Simulations
