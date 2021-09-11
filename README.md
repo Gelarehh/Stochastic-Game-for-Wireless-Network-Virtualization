@@ -49,7 +49,7 @@ where θ<sub>i</sub>(r) is the value function of SP<sub>i</sub> over the potenti
 Assume that the VCG mechanism is fixed during each frame. The policy Π<sub>i</sub> of SP is a plan to play the game. The long-term discounted average utility for SP is shown as:
 <br/><br/>
 <p align="center">
-  <img width="200" src="https://user-images.githubusercontent.com/66460485/132947621-188f319f-d2a8-4246-a9d0-7b8b9558f60f.png">
+  <img width="210" src="https://user-images.githubusercontent.com/66460485/132947621-188f319f-d2a8-4246-a9d0-7b8b9558f60f.png">
 </p>
 The best response of SP<sub>i</sub> to the policy Π<sub>-i</sub> of other SPs is represented by:
 <br/><br/>
@@ -63,7 +63,7 @@ Any stationary policy played by the SPs in the FutRA game can induce one Nash eq
 The conjectural price is the belief of SP<sub>i</sub> on the per-unit cost (charged by the NO) on the allocated rate (by the NO) in the FutRA game. The best response of SP for the CurRA game with state profile can be expressed as:
 <br/><br/>
 <p align="center">
-  <img width="400" src="https://user-images.githubusercontent.com/66460485/132947762-b798e1a2-436b-42dd-afd6-f882d5631ab0.png">
+  <img width="380" src="https://user-images.githubusercontent.com/66460485/132947762-b798e1a2-436b-42dd-afd6-f882d5631ab0.png">
 </p>
 The coupling in the payoff from the general policies played in the FutRA game prohibits the computation of the best response in the CurRA game. Conjectural prices remove this coupling. Once the conjectural prices are fixed, the curRA game is played independently of the FutRA game.
 
