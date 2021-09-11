@@ -49,10 +49,11 @@ Assume that the VCG mechanism is fixed during each frame. The policy Π<sub>i</s
   <img width="200" src="https://user-images.githubusercontent.com/66460485/132947621-188f319f-d2a8-4246-a9d0-7b8b9558f60f.png">
 </p>
 The best response of SP<sub>i</sub> to the policy Π<sub>-i</sub> of other SPs is represented by:
+
 <p align="center">
   <img width="300" src="https://user-images.githubusercontent.com/66460485/132947647-fed32042-d3ea-426f-929f-fe53cd757034.png">
 </p>
-
+We can split the stochastic game into two phases: current resource allocation (CurRA) game (i.e., the stage game at the current frame) and future resource allocation (FutRA) game (which is also a stochastic game starting from different states of the SPs). The output of the CurRA game will affect the initial states of all SPs in the FutRA game. Any stationary policy played by the SPs in the FutRA game can induce one Nash equilibrium policy played in the CurRA game with the state s. Instead of directly finding the Nash equilibrium in the FutRA game, we are interested in those policies that lead to decoupling in the payoff function.
 ### Conjectural Price Selection
 ### Distributed Implementation and Online Learning
 
