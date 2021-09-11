@@ -53,7 +53,16 @@ The best response of SP<sub>i</sub> to the policy Π<sub>-i</sub> of other SPs i
 <p align="center">
   <img width="300" src="https://user-images.githubusercontent.com/66460485/132947647-fed32042-d3ea-426f-929f-fe53cd757034.png">
 </p>
-We can split the stochastic game into two phases: current resource allocation (CurRA) game (i.e., the stage game at the current frame) and future resource allocation (FutRA) game (which is also a stochastic game starting from different states of the SPs). The output of the CurRA game will affect the initial states of all SPs in the FutRA game. Any stationary policy played by the SPs in the FutRA game can induce one Nash equilibrium policy played in the CurRA game with the state s. Instead of directly finding the Nash equilibrium in the FutRA game, we are interested in those policies that lead to decoupling in the payoff function.
+
+We can split the stochastic game into two phases: current resource allocation (CurRA) game (i.e., the stage game at the current frame) and future resource allocation (FutRA) game (which is also a stochastic game starting from different states of the SPs). The output of the CurRA game will affect the initial states of all SPs in the FutRA game.
+
+Any stationary policy played by the SPs in the FutRA game can induce one Nash equilibrium policy played in the CurRA game with the state s. Instead of directly finding the Nash equilibrium in the FutRA game, we are interested in those policies that lead to decoupling in the payoff function.
+
+The conjectural price is the belief of SP<sub>i</sub> on the per-unit cost (charged by the NO) on the allocated rate (by the NO) in the FutRA game. The best response of SP for the CurRA game with state profile can be expressed as:
+<p align="center">
+  <img width="300" src="https://user-images.githubusercontent.com/66460485/132947762-b798e1a2-436b-42dd-afd6-f882d5631ab0.png">
+</p>
+The coupling in the payoff from the general policies played in the FutRA game prohibits the computation of the best response in the CurRA game. Conjectural prices remove this coupling. Once the conjectural prices are fixed, the curRA game is played independently of the FutRA game.
 ### Conjectural Price Selection
 ### Distributed Implementation and Online Learning
 
