@@ -28,13 +28,17 @@ The system is considered to be time-slotted, and the NO makes scheduling decisio
   <img width="520" src="https://user-images.githubusercontent.com/66460485/132947130-7faa0923-94f1-448f-93ef-15767859375b.png">
 </p>
 Each end-user is subscribed to only one service in the network. The long-term average utility user receives is computed as:
-![image](https://user-images.githubusercontent.com/66460485/132947325-aace64b7-2405-4776-8e1e-84a0a12678b4.png)
-
+<p align="center">
+  <img width="150" src="https://user-images.githubusercontent.com/66460485/132947325-aace64b7-2405-4776-8e1e-84a0a12678b4.png">
+</p>
 The satisfaction function of SP_i can be interpreted as the willingness-to-pay (WTP) function of that SP and is a linear function:
-![image](https://user-images.githubusercontent.com/66460485/132947328-33cb29a3-58c2-4cbd-8327-3456e219894c.png)
-
+<p align="center">
+  <img width="150" src="https://user-images.githubusercontent.com/66460485/132947328-33cb29a3-58c2-4cbd-8327-3456e219894c.png">
+</p>
 A simple mechanism named Vickrey–Clarke–Groves (VCG) is used for pricing. The NO performs the rate allocation within the feasible rate region as follows:
-![image](https://user-images.githubusercontent.com/66460485/132947332-338e038d-30fe-4340-94fc-a73c957737ad.png)
+<p align="center">
+  <img width="180" src="https://user-images.githubusercontent.com/66460485/132947332-338e038d-30fe-4340-94fc-a73c957737ad.png">
+</p>
 
 ### Stochastic Game Formulation
 ### Playing Stochastic Game via Conjectural Price
