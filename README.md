@@ -19,7 +19,22 @@ Wireless Network Virtualization (WNV) is a concept that can be wildly used in re
 Each SP has a specific utility function that can be determined concerning the objectives and constraints of that SP. When the utilities are known, then NO is responsible for deciding the accessibility of the available spectrum by SPs. The NO has global information about the whole network, and it is in a perfect position to advertise conjectural prices to SPs to guide their bidding decisions. SPs bid for the network resources on behalf of the end-users. As the channel and traffic dynamics change stochastically, a stochastic game exists among SPs.
 
 ## System Model Review
-![image](https://user-images.githubusercontent.com/66460485/132947130-7faa0923-94f1-448f-93ef-15767859375b.png)
+One NO is considered in the proposed system. Users can subscribe to one or more SPs separately. NO manages the scheduling using the most recent channel state information (CSI) provided by the mobile users and each SP's most recent value function. SPs don't have CSI information and only view the traffic states of their own users.
+The system is considered to be time-slotted, and the NO makes scheduling decisions every W seconds. The channel gain is constant within the frame but changes across frames. The channel gain profile of each user is assumed to be known to both user and the NO. The TDMA-like channel access is assumed to be deployed, and the total power is normalized to one. 
+
+<br/><br/>
+
+<p align="center">
+  <img width="520" src="https://user-images.githubusercontent.com/66460485/132947130-7faa0923-94f1-448f-93ef-15767859375b.png">
+</p>
+Each end-user is subscribed to only one service in the network. The long-term average utility user receives is computed as:
+![image](https://user-images.githubusercontent.com/66460485/132947325-aace64b7-2405-4776-8e1e-84a0a12678b4.png)
+
+The satisfaction function of SP_i can be interpreted as the willingness-to-pay (WTP) function of that SP and is a linear function:
+![image](https://user-images.githubusercontent.com/66460485/132947328-33cb29a3-58c2-4cbd-8327-3456e219894c.png)
+
+A simple mechanism named Vickrey–Clarke–Groves (VCG) is used for pricing. The NO performs the rate allocation within the feasible rate region as follows:
+![image](https://user-images.githubusercontent.com/66460485/132947332-338e038d-30fe-4340-94fc-a73c957737ad.png)
 
 ### Stochastic Game Formulation
 ### Playing Stochastic Game via Conjectural Price
