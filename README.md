@@ -76,7 +76,7 @@ From the perspective of the NO, the efficient resource allocation is to cooperat
 The best conjectural price can be selected by solving the following problem.
 <br/><br/>
 <p align="center">
-  <img width="400" src="https://user-images.githubusercontent.com/66460485/132947906-d9d1f353-fefc-437c-be84-ba81ae0773aa.png">
+  <img width="210" src="https://user-images.githubusercontent.com/66460485/132947906-d9d1f353-fefc-437c-be84-ba81ae0773aa.png">
 </p>
 The NO would like all the SPs to adopt this efficient price profile. results in the efficient rate allocation in the CurRA game and is the Nash equilibrium of the FutRA game in the stochastic game. When the SPs are enforced to take the conjectural prices to play the FutRA game, one Nash Equilibrium is the efficient price . Furthermore, given the Nash equilibrium, the SPs play the CurRA game by truthfully revealing the value function that results in the efficient rate allocation. This truthful revelation actually leads to the dominant equilibrium in the CurRA game.
 
@@ -84,7 +84,7 @@ The NO would like all the SPs to adopt this efficient price profile. results in 
 As traffic states and the channel condition distribution are not available a priori, to find the conjectural price profile these information must be learned over time. We can define the traffic state just before the packet arrival as a post-decision traffic state.
 <br/><br/>
 <p align="center">
-  <img width="400" src="https://user-images.githubusercontent.com/66460485/132947945-9eb377cc-69b3-43bd-b415-ae06fbed4a45.png">
+  <img width="450" src="https://user-images.githubusercontent.com/66460485/132947945-9eb377cc-69b3-43bd-b415-ae06fbed4a45.png">
 </p>
 
 ## Simulations
