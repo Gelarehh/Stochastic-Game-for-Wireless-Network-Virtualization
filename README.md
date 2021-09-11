@@ -90,7 +90,7 @@ As traffic states and the channel condition distribution are not available a pri
 The NO updates the conjectural price every frames, and the SPs updates the post-state-value function for each associated user at every frame. The algorithms for updating the conjectural prices and state-value functions are as follows:
 <br/><br/>
 <p align="center">
-  <img width="440" src="https://user-images.githubusercontent.com/66460485/132948020-ae78ee69-dadd-4ca7-8cbf-60df7b0fdd86.png">
+  <img width="430" src="https://user-images.githubusercontent.com/66460485/132948020-ae78ee69-dadd-4ca7-8cbf-60df7b0fdd86.png">
 </p>
 
 
