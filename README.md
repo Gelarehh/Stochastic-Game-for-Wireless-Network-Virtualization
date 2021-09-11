@@ -23,11 +23,11 @@ One NO is considered in the proposed system. Users can subscribe to one or more 
 The system is considered to be time-slotted, and the NO makes scheduling decisions every W seconds. The channel gain is constant within the frame but changes across frames. The channel gain profile of each user is assumed to be known to both user and the NO. The TDMA-like channel access is assumed to be deployed, and the total power is normalized to one. 
 
 <br/><br/>
-
 <p align="center">
   <img width="520" src="https://user-images.githubusercontent.com/66460485/132947130-7faa0923-94f1-448f-93ef-15767859375b.png">
 </p>
 Each end-user is subscribed to only one service in the network. The long-term average utility user receives is computed as:
+<br/><br/>
 <p align="center">
   <img width="150" src="https://user-images.githubusercontent.com/66460485/132947325-aace64b7-2405-4776-8e1e-84a0a12678b4.png">
 </p>
@@ -39,6 +39,7 @@ The satisfaction function of SP<sub>i</sub> can be interpreted as the willingnes
 where a<sub>k</sub> is the weight of the user k.
 
 A simple mechanism named Vickrey–Clarke–Groves (VCG) is used for pricing. The NO performs the rate allocation within the feasible rate region as follows:
+<br/><br/>
 <p align="center">
   <img width="210" src="https://user-images.githubusercontent.com/66460485/132947332-338e038d-30fe-4340-94fc-a73c957737ad.png">
 </p>
@@ -46,6 +47,7 @@ where θ<sub>i</sub>(r) is the value function of SP<sub>i</sub> over the potenti
 
 ### Playing Stochastic Game via Conjectural Price
 Assume that the VCG mechanism is fixed during each frame. The policy Π<sub>i</sub> of SP is a plan to play the game. The long-term discounted average utility for SP is shown as:
+<br/><br/>
 <p align="center">
   <img width="200" src="https://user-images.githubusercontent.com/66460485/132947621-188f319f-d2a8-4246-a9d0-7b8b9558f60f.png">
 </p>
@@ -59,6 +61,7 @@ We can split the stochastic game into two phases: current resource allocation (C
 Any stationary policy played by the SPs in the FutRA game can induce one Nash equilibrium policy played in the CurRA game with the state s. Instead of directly finding the Nash equilibrium in the FutRA game, we are interested in those policies that lead to decoupling in the payoff function.
 
 The conjectural price is the belief of SP<sub>i</sub> on the per-unit cost (charged by the NO) on the allocated rate (by the NO) in the FutRA game. The best response of SP for the CurRA game with state profile can be expressed as:
+<br/><br/>
 <p align="center">
   <img width="400" src="https://user-images.githubusercontent.com/66460485/132947762-b798e1a2-436b-42dd-afd6-f882d5631ab0.png">
 </p>
