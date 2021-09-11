@@ -39,12 +39,20 @@ where a<sub>k</sub> is the weight of the user k.
 
 A simple mechanism named Vickrey–Clarke–Groves (VCG) is used for pricing. The NO performs the rate allocation within the feasible rate region as follows:
 <p align="center">
-  <img width="200" src="https://user-images.githubusercontent.com/66460485/132947332-338e038d-30fe-4340-94fc-a73c957737ad.png">
+  <img width="210" src="https://user-images.githubusercontent.com/66460485/132947332-338e038d-30fe-4340-94fc-a73c957737ad.png">
 </p>
 where θ<sub>i</sub>(r) is the value function of SP<sub>i</sub> over the potential allocated rate.
 
-### Stochastic Game Formulation
 ### Playing Stochastic Game via Conjectural Price
+Assume that the VCG mechanism is fixed during each frame. The policy Π<sub>i</sub> of SP is a plan to play the game. The long-term discounted average utility for SP is shown as:
+<p align="center">
+  <img width="200" src="https://user-images.githubusercontent.com/66460485/132947621-188f319f-d2a8-4246-a9d0-7b8b9558f60f.png">
+</p>
+The best response of SP<sub>i</sub> to the policy Π<sub>-i</sub> of other SPs is represented by:
+<p align="center">
+  <img width="300" src="https://user-images.githubusercontent.com/66460485/132947647-fed32042-d3ea-426f-929f-fe53cd757034.png">
+</p>
+
 ### Conjectural Price Selection
 ### Distributed Implementation and Online Learning
 
