@@ -87,12 +87,18 @@ As traffic states and the channel condition distribution are not available a pri
   <img width="415" src="https://user-images.githubusercontent.com/66460485/132947945-9eb377cc-69b3-43bd-b415-ae06fbed4a45.png">
 </p>
 
-The NO updates the conjectural price every ΔT>=1 frames, and the SPs updates the post-state-value function for each associated user at every frame. The algorithms for updating the conjectural prices and state-value functions are as follows:
+The NO updates the conjectural price every $ΔT >= 1$ frames, and the SPs updates the post-state-value function for each associated user at every frame. The algorithms for updating the conjectural prices and state-value functions are as follows:
 <br/><br/>
 <p align="center">
   <img width="430" src="https://user-images.githubusercontent.com/66460485/132948020-ae78ee69-dadd-4ca7-8cbf-60df7b0fdd86.png">
 </p>
+
 ### Theorem (Nash Equilibrium of Conjectural Price)
-λ<sup>*</sup> results in the efficient rate allocation in the CurRA game and is the Nash equilibrium of the FutRA game in the stochastic game when SPs are charged with the additional payments 
+λ<sup>*</sup> results in the efficient rate allocation in the CurRA game and is the Nash equilibrium of the FutRA game in the stochastic game when SPs are charged with the additional payments as follows:
+<p align="center">
+  <img width="310" src="https://user-images.githubusercontent.com/66460485/132981893-ce049ac1-ce48-494f-a0b6-79645b716656.PNG">
+</p>
+with large enough $A >= 0$.
 
 ## Simulations
+
