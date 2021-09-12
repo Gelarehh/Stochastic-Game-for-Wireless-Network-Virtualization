@@ -87,7 +87,7 @@ As traffic states and the channel condition distribution are not available a pri
   <img width="415" src="https://user-images.githubusercontent.com/66460485/132947945-9eb377cc-69b3-43bd-b415-ae06fbed4a45.png">
 </p>
 
-The NO updates the conjectural price every $ΔT >= 1$ frames, and the SPs updates the post-state-value function for each associated user at every frame. The algorithms for updating the conjectural prices and state-value functions are as follows:
+The NO updates the conjectural price every ΔT >= 1 frames, and the SPs updates the post-state-value function for each associated user at every frame. The algorithms for updating the conjectural prices and state-value functions are as follows:
 <br/><br/>
 <p align="center">
   <img width="430" src="https://user-images.githubusercontent.com/66460485/132948020-ae78ee69-dadd-4ca7-8cbf-60df7b0fdd86.png">
@@ -101,4 +101,18 @@ The NO updates the conjectural price every $ΔT >= 1$ frames, and the SPs update
 with large enough A >= 0.
 
 ## Simulations
+It is shown that when the SP accepts the conjectural price which is determined by the NO, its utility will be maximized.
+Here we assume that SP 1 does not follow the conjectural price for User 1 advised by the NO. The optimal conjectural price for the first user is approximately equal to 5. Instead, SP 1 chooses the price arbitrarily from 2 to 8. The utility is computed with A=10.
+
+As a practice, the simulation of the original paper is re-simulated, with the corresponding codes being attached to the repository.
+
+-simulation of the paper
+<p align="center">
+  <img width="310" src="https://user-images.githubusercontent.com/66460485/132982020-8b88594a-c102-4b88-be03-e0ca088c1996.png">
+</p>
+
+- performed simulation
+<p align="center">
+  <img width="310" src="https://user-images.githubusercontent.com/66460485/132982037-afda9d19-6ef7-4fe1-b3b5-6aad57b212f0.png">
+</p>
 
