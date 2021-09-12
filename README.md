@@ -98,7 +98,7 @@ The NO updates the conjectural price every $ΔT >= 1$ frames, and the SPs update
 <p align="center">
   <img width="310" src="https://user-images.githubusercontent.com/66460485/132981893-ce049ac1-ce48-494f-a0b6-79645b716656.PNG">
 </p>
-with large enough $A >= 0$.
+with large enough A >= 0.
 
 ## Simulations
 
