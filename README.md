@@ -78,7 +78,7 @@ The best conjectural price can be selected by solving the following problem.
 <p align="center">
   <img width="210" src="https://user-images.githubusercontent.com/66460485/132947906-d9d1f353-fefc-437c-be84-ba81ae0773aa.png">
 </p>
-The NO would like all the SPs to adopt this efficient price profile. \[ \Lambda \]results in the efficient rate allocation in the CurRA game and is the Nash equilibrium of the FutRA game in the stochastic game. When the SPs are enforced to take the conjectural prices to play the FutRA game, one Nash Equilibrium is the efficient price . Furthermore, given the Nash equilibrium, the SPs play the CurRA game by truthfully revealing the value function that results in the efficient rate allocation. This truthful revelation actually leads to the dominant equilibrium in the CurRA game.
+The NO would like all the SPs to adopt this efficient price profile. λ<sup>*</sup> results in the efficient rate allocation in the CurRA game and is the Nash equilibrium of the FutRA game in the stochastic game. When the SPs are enforced to take the conjectural prices to play the FutRA game, one Nash Equilibrium is the efficient price λ<sup>*</sup>. Furthermore, given the Nash equilibrium, the SPs play the CurRA game by truthfully revealing the value function that results in the efficient rate allocation. This truthful revelation actually leads to the dominant equilibrium in the CurRA game.
 
 ### Distributed Implementation and Online Learning
 As traffic states and the channel condition distribution are not available a priori, to find the conjectural price profile these information must be learned over time. We can define the traffic state just before the packet arrival as a post-decision traffic state.
@@ -87,11 +87,12 @@ As traffic states and the channel condition distribution are not available a pri
   <img width="415" src="https://user-images.githubusercontent.com/66460485/132947945-9eb377cc-69b3-43bd-b415-ae06fbed4a45.png">
 </p>
 
-The NO updates the conjectural price every frames, and the SPs updates the post-state-value function for each associated user at every frame. The algorithms for updating the conjectural prices and state-value functions are as follows:
+The NO updates the conjectural price every ΔT>=1 frames, and the SPs updates the post-state-value function for each associated user at every frame. The algorithms for updating the conjectural prices and state-value functions are as follows:
 <br/><br/>
 <p align="center">
   <img width="430" src="https://user-images.githubusercontent.com/66460485/132948020-ae78ee69-dadd-4ca7-8cbf-60df7b0fdd86.png">
 </p>
-
+### Theorem (Nash Equilibrium of Conjectural Price)
+λ<sup>*</sup> results in the efficient rate allocation in the CurRA game and is the Nash equilibrium of the FutRA game in the stochastic game when SPs are charged with the additional payments 
 
 ## Simulations
