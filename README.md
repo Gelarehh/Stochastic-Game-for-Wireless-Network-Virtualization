@@ -108,7 +108,7 @@ As a practice, the simulation of the original paper is re-simulated, with the co
 
 - simulation of the paper
 <p align="center">
-  <img width="450" src="https://user-images.githubusercontent.com/66460485/132982142-61298ce7-cf09-4f78-be59-6be44eb78086.png">
+  <img width="450" src="https://user-images.githubusercontent.com/66460485/132982234-52c7d54d-bf56-4495-b60f-0d42e31289a1.PNG">
 </p>
 
 - performed simulation
