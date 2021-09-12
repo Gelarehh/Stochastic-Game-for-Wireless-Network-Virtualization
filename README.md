@@ -78,7 +78,7 @@ The best conjectural price can be selected by solving the following problem.
 <p align="center">
   <img width="210" src="https://user-images.githubusercontent.com/66460485/132947906-d9d1f353-fefc-437c-be84-ba81ae0773aa.png">
 </p>
-The NO would like all the SPs to adopt this efficient price profile. results in the efficient rate allocation in the CurRA game and is the Nash equilibrium of the FutRA game in the stochastic game. When the SPs are enforced to take the conjectural prices to play the FutRA game, one Nash Equilibrium is the efficient price . Furthermore, given the Nash equilibrium, the SPs play the CurRA game by truthfully revealing the value function that results in the efficient rate allocation. This truthful revelation actually leads to the dominant equilibrium in the CurRA game.
+The NO would like all the SPs to adopt this efficient price profile. \[ \Lambda \]results in the efficient rate allocation in the CurRA game and is the Nash equilibrium of the FutRA game in the stochastic game. When the SPs are enforced to take the conjectural prices to play the FutRA game, one Nash Equilibrium is the efficient price . Furthermore, given the Nash equilibrium, the SPs play the CurRA game by truthfully revealing the value function that results in the efficient rate allocation. This truthful revelation actually leads to the dominant equilibrium in the CurRA game.
 
 ### Distributed Implementation and Online Learning
 As traffic states and the channel condition distribution are not available a priori, to find the conjectural price profile these information must be learned over time. We can define the traffic state just before the packet arrival as a post-decision traffic state.
