@@ -1,4 +1,4 @@
-# Stochastic-Game-for-Wireless-Network-Virtualization
+# Stochastic Game For Wireless Network Virtualization
 
 ## Abstract
 In the main paper's framework, NO is only responsible for spectrum management, and SPs are accountable for their users' quality-of-service (QoS) management.
