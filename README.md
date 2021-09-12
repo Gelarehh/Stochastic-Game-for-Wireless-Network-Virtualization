@@ -113,5 +113,18 @@ As a practice, the simulation of the original paper is re-simulated, with the co
 
 - performed simulation
 <p align="center">
-  <img width="450" src="https://user-images.githubusercontent.com/66460485/132982037-afda9d19-6ef7-4fe1-b3b5-6aad57b212f0.png">
+  <img width="470" src="https://user-images.githubusercontent.com/66460485/132982037-afda9d19-6ef7-4fe1-b3b5-6aad57b212f0.png">
 </p>
+
+## Contribution
+To evaluate the performance, the long-term discounted average payoff of each SP has been used. The long-term undiscounted average payoff can be achieved when approaches to 1.
+In this paper, the focus was on the policies that maximize the discounted average payoff instead of the undiscounted average payoff.
+Here we can investigate the effect of changing the discount factor (β) on the utility of user 1.
+
+We use the same assumption as used in the previous section for the system. Instead, in this part the conjectural price is assumed to be constant. The used number for the conjectural price is 6. By changing the discount factor from 0.1 to 0.9, its effect on the utility of each user, here again user 1, can be seen in the simulation results.
+
+<p align="center">
+  <img width="470" src="https://user-images.githubusercontent.com/66460485/132982378-190793fa-c635-490e-a2b0-9bd0dcac6512.png">
+</p>
+We can see that for low values of discount factor, the utility of the decreases and for higher values, the utility has greater amounts.
+The respective codes are attached.
