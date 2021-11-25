@@ -8,9 +8,7 @@ Therefore, following statements are proved:
 - Given the conjectural prices, the SPs have to reveal their value function truthfully.
 - The Nash equilibrium results in efficient rate allocation over the virtualization framework. Thus, NO has the incentive to compute the Nash equilibrium point in conjectural prices and feedback to SPs, while SPs have the incentives o follow NO's feedback.
 
-
 It is also shown that by using learning methods, NO and SPs can compute the conjectural prices and the value functions, respectively, without requiring the knowledge of the time-varying channel and traffic dynamics.
-The following diagram shows the learning algorithm used by SPs and NO. This iterative online learning algorithm converges to the optimal conjectural prices and the value functions.
 
 ## Introduction
 Wireless Network Virtualization (WNV) is a concept that can be wildly used in recent networks and facilitate a flexible and lower complexity solution for service customization. A broadband wireless network that can support various services over the same physical network is considered. The roles in the network are divided into two parts: service providers (SP) and network operators (NO). The two fundamental mechanisms which help us deal with the problem are Vickrey-Clarke–Groves (VCG) mechanism and conjectural pricing.
