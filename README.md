@@ -21,7 +21,7 @@ The system is considered to be time-slotted, and the NO makes scheduling decisio
 
 <br/><br/>
 <p align="center">
-  <img width="520" src="https://user-images.githubusercontent.com/66460485/132947130-7faa0923-94f1-448f-93ef-15767859375b.png">
+  <img width="700" src="https://user-images.githubusercontent.com/66460485/132947130-7faa0923-94f1-448f-93ef-15767859375b.png">
 </p>
 Each end-user is subscribed to only one service in the network. The long-term average utility user receives is computed as:
 <br/><br/>
