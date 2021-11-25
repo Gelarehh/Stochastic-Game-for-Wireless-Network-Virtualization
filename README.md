@@ -123,5 +123,5 @@ We use the same assumption as used in the previous section for the system. Inste
 <p align="center">
   <img width="470" src="https://user-images.githubusercontent.com/66460485/132982378-190793fa-c635-490e-a2b0-9bd0dcac6512.png">
 </p>
-We can see that for low values of discount factor, the utility of the decreases and for higher values, the utility has greater amounts.
+We can see that for low values of discount factor, the utility of the user decreases and for higher values, the utility has greater amounts.
 The respective codes are attached.
