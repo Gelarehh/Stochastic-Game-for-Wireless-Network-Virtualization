@@ -1,16 +1,15 @@
 # Stochastic Game For Wireless Network Virtualization
 
 ## Abstract
-In the main paper's framework, NO is only responsible for spectrum management, and SPs are accountable for their users' quality-of-service (QoS) management.
-The following statements are proved:
-
+In the following wireless network framework, it's assumed that each Network Operator (NO) is responsible for spectrum management, and Service Providers (SPs) are accountable for their users' quality-of-service (QoS) management.
+Therefore, following statements are proved:
 
 - There exists one Nash equilibrium in the conjectural prices.
 - Given the conjectural prices, the SPs have to reveal their value function truthfully.
 - The Nash equilibrium results in efficient rate allocation over the virtualization framework. Thus, NO has the incentive to compute the Nash equilibrium point in conjectural prices and feedback to SPs, while SPs have the incentives o follow NO's feedback.
 
 
-It is shown that by using learning methods, NO and SPs can compute the conjectural prices and the value functions, respectively, without requiring the knowledge of the time-varying channel and traffic dynamics.
+It is also shown that by using learning methods, NO and SPs can compute the conjectural prices and the value functions, respectively, without requiring the knowledge of the time-varying channel and traffic dynamics.
 The following diagram shows the learning algorithm used by SPs and NO. This iterative online learning algorithm converges to the optimal conjectural prices and the value functions.
 
 ## Introduction
